@@ -1,0 +1,25 @@
+[2021-12-16T06:45:29,970][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.processId: 17448 (auto-detected)
+[2021-12-16T06:45:29,973][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+[2021-12-16T06:45:29,973][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+[2021-12-16T06:45:30,112][DEBUG][Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2021-12-16T06:45:30,113][DEBUG][Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[2021-12-16T06:45:30,274][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.machineId: f0:2f:74:ff:fe:d4:02:2a (auto-detected)
+[2021-12-16T06:45:34,473][INFO ][TestNG-test=api_test-1] -----------Test: automation_test.Mortgage_Calculator.MyMortgageCalculate@6de54b40-----------------
+[2021-12-16T06:45:37,185][DEBUG][TestNG-test=api_test-1] Go to the Home Page
+[2021-12-16T06:45:38,985][DEBUG][TestNG-test=api_test-1] Enter the home price900000
+[2021-12-16T06:45:39,476][DEBUG][TestNG-test=api_test-1] Enter the down payment200000
+[2021-12-16T06:45:39,973][DEBUG][TestNG-test=api_test-1] Select the dollar sign
+[2021-12-16T06:45:40,214][DEBUG][TestNG-test=api_test-1] Enter Loan amount700000
+[2021-12-16T06:45:40,597][DEBUG][TestNG-test=api_test-1] Enter Apr3.5
+[2021-12-16T06:45:40,978][DEBUG][TestNG-test=api_test-1] Enter Years Of Loan30
+[2021-12-16T06:45:41,362][DEBUG][TestNG-test=api_test-1] Select monthMar
+[2021-12-16T06:45:41,855][DEBUG][TestNG-test=api_test-1] Select year2022
+[2021-12-16T06:45:42,242][DEBUG][TestNG-test=api_test-1] Enter yearly TAX10000
+[2021-12-16T06:45:42,630][DEBUG][TestNG-test=api_test-1] Enter Pmi0.5
+[2021-12-16T06:45:42,885][DEBUG][TestNG-test=api_test-1] Enter Monthly Home Insurance1000
+[2021-12-16T06:45:43,156][DEBUG][TestNG-test=api_test-1] Enter monthly HOA500
+[2021-12-16T06:45:43,512][DEBUG][TestNG-test=api_test-1] Select loan typeFHA
+[2021-12-16T06:45:43,787][DEBUG][TestNG-test=api_test-1] Select TypeBuy
+[2021-12-16T06:45:44,068][DEBUG][TestNG-test=api_test-1] Click on calculator
+[2021-12-16T06:45:45,101][DEBUG][TestNG-test=api_test-1] Validating that the total monthly payment is4,559.98
+[2021-12-16T06:45:45,392][INFO ][TestNG-test=api_test-1] -----------Test End: automation_test.Mortgage_Calculator.MyMortgageCalculate@6de54b40-----------------
