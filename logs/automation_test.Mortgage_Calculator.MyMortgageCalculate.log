@@ -1,25 +1,53 @@
-[2021-12-16T06:45:29,970][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.processId: 17448 (auto-detected)
-[2021-12-16T06:45:29,973][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
-[2021-12-16T06:45:29,973][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
-[2021-12-16T06:45:30,112][DEBUG][Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-[2021-12-16T06:45:30,113][DEBUG][Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[2021-12-16T06:45:30,274][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.machineId: f0:2f:74:ff:fe:d4:02:2a (auto-detected)
-[2021-12-16T06:45:34,473][INFO ][TestNG-test=api_test-1] -----------Test: automation_test.Mortgage_Calculator.MyMortgageCalculate@6de54b40-----------------
-[2021-12-16T06:45:37,185][DEBUG][TestNG-test=api_test-1] Go to the Home Page
-[2021-12-16T06:45:38,985][DEBUG][TestNG-test=api_test-1] Enter the home price900000
-[2021-12-16T06:45:39,476][DEBUG][TestNG-test=api_test-1] Enter the down payment200000
-[2021-12-16T06:45:39,973][DEBUG][TestNG-test=api_test-1] Select the dollar sign
-[2021-12-16T06:45:40,214][DEBUG][TestNG-test=api_test-1] Enter Loan amount700000
-[2021-12-16T06:45:40,597][DEBUG][TestNG-test=api_test-1] Enter Apr3.5
-[2021-12-16T06:45:40,978][DEBUG][TestNG-test=api_test-1] Enter Years Of Loan30
-[2021-12-16T06:45:41,362][DEBUG][TestNG-test=api_test-1] Select monthMar
-[2021-12-16T06:45:41,855][DEBUG][TestNG-test=api_test-1] Select year2022
-[2021-12-16T06:45:42,242][DEBUG][TestNG-test=api_test-1] Enter yearly TAX10000
-[2021-12-16T06:45:42,630][DEBUG][TestNG-test=api_test-1] Enter Pmi0.5
-[2021-12-16T06:45:42,885][DEBUG][TestNG-test=api_test-1] Enter Monthly Home Insurance1000
-[2021-12-16T06:45:43,156][DEBUG][TestNG-test=api_test-1] Enter monthly HOA500
-[2021-12-16T06:45:43,512][DEBUG][TestNG-test=api_test-1] Select loan typeFHA
-[2021-12-16T06:45:43,787][DEBUG][TestNG-test=api_test-1] Select TypeBuy
-[2021-12-16T06:45:44,068][DEBUG][TestNG-test=api_test-1] Click on calculator
-[2021-12-16T06:45:45,101][DEBUG][TestNG-test=api_test-1] Validating that the total monthly payment is4,559.98
-[2021-12-16T06:45:45,392][INFO ][TestNG-test=api_test-1] -----------Test End: automation_test.Mortgage_Calculator.MyMortgageCalculate@6de54b40-----------------
+[2021-12-17T21:10:18,851][DEBUG][main] Using Log4J2 as the default logging framework
+[2021-12-17T21:10:18,991][DEBUG][main] -Dio.netty.leakDetection.level: simple
+[2021-12-17T21:10:18,992][DEBUG][main] -Dio.netty.leakDetection.targetRecords: 4
+[2021-12-17T21:10:19,002][DEBUG][main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7139bd31
+[2021-12-17T21:10:19,189][DEBUG][main] -Dio.netty.noUnsafe: false
+[2021-12-17T21:10:19,189][DEBUG][main] Java version: 11
+[2021-12-17T21:10:19,194][DEBUG][main] sun.misc.Unsafe.theUnsafe: available
+[2021-12-17T21:10:19,195][DEBUG][main] sun.misc.Unsafe.copyMemory: available
+[2021-12-17T21:10:19,197][DEBUG][main] java.nio.Buffer.address: available
+[2021-12-17T21:10:19,202][DEBUG][main] direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[2021-12-17T21:10:19,204][DEBUG][main] java.nio.Bits.unaligned: available, true
+[2021-12-17T21:10:19,207][DEBUG][main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6b3f6585
+[2021-12-17T21:10:19,224][DEBUG][main] java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[2021-12-17T21:10:19,225][DEBUG][main] sun.misc.Unsafe: available
+[2021-12-17T21:10:19,226][DEBUG][main] maxDirectMemory: 2147483648 bytes (maybe)
+[2021-12-17T21:10:19,227][DEBUG][main] -Dio.netty.tmpdir: /var/folders/1w/msn7tb4s1xq30xh3sdxff7fw0000gn/T (java.io.tmpdir)
+[2021-12-17T21:10:19,227][DEBUG][main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2021-12-17T21:10:19,228][DEBUG][main] Platform: MacOS
+[2021-12-17T21:10:19,232][DEBUG][main] -Dio.netty.maxDirectMemory: -1 bytes
+[2021-12-17T21:10:19,233][DEBUG][main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[2021-12-17T21:10:19,235][DEBUG][main] java.nio.ByteBuffer.cleaner(): available
+[2021-12-17T21:10:19,235][DEBUG][main] -Dio.netty.noPreferDirect: false
+[2021-12-17T21:10:19,348][DEBUG][main] org.jctools-core.MpscChunkedArrayQueue: available
+[2021-12-17T21:10:19,536][DEBUG][main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[2021-12-17T21:10:19,539][DEBUG][main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[2021-12-17T21:10:19,624][DEBUG][main] Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[2021-12-17T21:10:19,626][DEBUG][main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[2021-12-17T21:10:19,845][DEBUG][main] -Dio.netty.eventLoopThreads: 8
+[2021-12-17T21:10:19,872][DEBUG][main] -Dio.netty.noKeySetOptimization: false
+[2021-12-17T21:10:19,872][DEBUG][main] -Dio.netty.selectorAutoRebuildThreshold: 512
+[2021-12-17T21:10:20,020][DEBUG][main] -Dio.netty.allocator.numHeapArenas: 8
+[2021-12-17T21:10:20,021][DEBUG][main] -Dio.netty.allocator.numDirectArenas: 8
+[2021-12-17T21:10:20,021][DEBUG][main] -Dio.netty.allocator.pageSize: 8192
+[2021-12-17T21:10:20,024][DEBUG][main] -Dio.netty.allocator.maxOrder: 11
+[2021-12-17T21:10:20,025][DEBUG][main] -Dio.netty.allocator.chunkSize: 16777216
+[2021-12-17T21:10:20,025][DEBUG][main] -Dio.netty.allocator.smallCacheSize: 256
+[2021-12-17T21:10:20,025][DEBUG][main] -Dio.netty.allocator.normalCacheSize: 64
+[2021-12-17T21:10:20,026][DEBUG][main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2021-12-17T21:10:20,026][DEBUG][main] -Dio.netty.allocator.cacheTrimInterval: 8192
+[2021-12-17T21:10:20,027][DEBUG][main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[2021-12-17T21:10:20,027][DEBUG][main] -Dio.netty.allocator.useCacheForAllThreads: true
+[2021-12-17T21:10:20,027][DEBUG][main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[2021-12-17T21:10:20,075][DEBUG][main] -Dio.netty.allocator.type: pooled
+[2021-12-17T21:10:20,075][DEBUG][main] -Dio.netty.threadLocalDirectBufferSize: 0
+[2021-12-17T21:10:20,076][DEBUG][main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2021-12-17T21:10:21,749][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.processId: 13825 (auto-detected)
+[2021-12-17T21:10:21,756][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+[2021-12-17T21:10:21,757][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+[2021-12-17T21:10:21,775][DEBUG][Forwarding newSession on session null to remote] Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+[2021-12-17T21:10:21,777][DEBUG][Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+[2021-12-17T21:10:21,783][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.machineId: a4:83:e7:ff:fe:be:e6:5f (auto-detected)
+[2021-12-17T21:10:33,386][DEBUG][main] -Dio.netty.initialSeedUniquifier: 0x7b14122ddd2e7339
+[2021-12-17T21:10:33,602][INFO ][main] -----------Test: automation_test.Mortgage_Calculator.MyMortgageCalculate@743cb8e0-----------------
